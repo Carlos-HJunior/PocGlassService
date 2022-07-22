@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PocGlassService:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>PocGlassService</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="PocGlassService-1.0.war">
+      <element id="artifact" artifact-name="PocGlassService:war exploded" />
+    </root>
+  </artifact>
+</component>
